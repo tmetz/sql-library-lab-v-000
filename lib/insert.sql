@@ -1,5 +1,5 @@
 INSERT INTO Series (title, author_id, subgenre_id)
-VALUES 
+VALUES
 ("Keeper of the Lost Cities", 1, 2),
 ("Harry Potter", 2, 2);
 
@@ -10,7 +10,7 @@ VALUES "Coming of Age");
 
 
 INSERT INTO Authors(name)
-VALUES 
+VALUES
 ("Shannon Messenger"),
 ("J.K. Rowling");
 
@@ -35,3 +35,22 @@ VALUES
 ("Hagrid", "Yer a wizard!", "Giant", 2, 2),
 ("Mrs. Weasley", "Of course Harry can stay", "Wizard", 2, 2),
 ("Mr. Dursley", "Dudley-poo!", "Human", 2, 2);
+
+INSERT INTO character_books(character_id, book_id)
+VALUES
+(1,3),
+(1,2),
+(1,1),
+(3,1),
+(2,1),
+(2,2),
+(2,3),
+(4,1),
+(5,4),
+(5,5),
+(5,6),
+(6,4),
+(6,5),
+(6,6),
+(7,5),
+(8,1);
