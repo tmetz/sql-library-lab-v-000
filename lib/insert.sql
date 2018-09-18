@@ -5,8 +5,8 @@ VALUES
 
 
 INSERT INTO SubGenres (name)
-VALUES 
-("Coming of Age");
+VALUES
+("Coming of Age"),
 ("Dragons");
 
 
