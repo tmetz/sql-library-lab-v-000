@@ -14,7 +14,7 @@ end
 def select_name_and_series_subgenres_of_authors
   "SELECT Authors.name, SubGenres.name FROM Authors
   INNER JOIN Series
-  ON Author.id = Series.author_id
+  ON Authors.id = Series.author_id
   INNER JOIN SubGenres
   ON Series.subgenre_id = SubGenres.id;"
 end
