@@ -10,7 +10,7 @@ CREATE TABLE Characters (
 
 CREATE TABLE Books (
   id INTEGER PRIMARY KEY,
-  series_id TEXT
+  series_id TEXT,
   title TEXT,
   year TEXT
 
