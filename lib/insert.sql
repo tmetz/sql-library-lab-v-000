@@ -18,12 +18,12 @@ VALUES
 
 INSERT INTO Books(series_id, title, year)
 VALUES
-(1, "Keeper of the Lost Cities #1", "2011"),
-(1, "Neverseen", "2014"),
-(1, "Lodestar", "2016"),
-(2, "Sorcerer's Stone", "1999"),
-(2, "Order of the Phoenix", "2004"),
-(2, "Prisoner of Azkaban", "2005");
+(1, "Keeper of the Lost Cities #1", 2011),
+(1, "Neverseen", 2014),
+(1, "Lodestar", 2016),
+(2, "Sorcerer's Stone", 1999),
+(2, "Order of the Phoenix", 2004),
+(2, "Prisoner of Azkaban", 2005);
 
 
 INSERT INTO Characters(name, motto, species, author_id, series_id)
